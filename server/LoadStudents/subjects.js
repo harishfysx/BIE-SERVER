@@ -1,4 +1,6 @@
-var subjects = [
+const year = 'I';
+
+var subjectList = [
   {'code': 01 , 'name' : 'ENGLISH PAPER -I' },
   {'code': 03 , 'name' : 'TELUGU PAPER-I' },
   {'code': 05 , 'name' : 'URDU PAPER-I' },
@@ -96,4 +98,20 @@ var subjects = [
   {'code': 94 , 'name' : 'FINE ARTS MUSIC-II' },
   {'code': 95 , 'name' : 'MUSIC PRACTICAL' }
 ];
-exports.subjects = subjects;
+
+exports.subjectFnctn =function subjectFnctn(subjCode){
+  switch (subjCode) {
+    case '31': case '32': case '37': case '38':
+    case '41': case '42': 
+
+      if(year == 'I'){
+        subjCode ='1'+subjCode;
+      }
+      return  parseInt(subjCode);
+      break;
+    default:
+      return parseInt(subjCode);
+  }
+}
+
+exports.subjectList = subjectList;

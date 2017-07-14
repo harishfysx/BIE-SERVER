@@ -20,10 +20,6 @@ var StudentSchema = new mongoose.Schema({
     minlength: 1,
     trim : true
   },
-  colgyear: {
-    type: String,
-    minlength: 1
-  },
   subjects:[{
     subjectName:{
       type: String,
@@ -39,14 +35,22 @@ var StudentSchema = new mongoose.Schema({
       type: String
     }
   }],
-grandTotal: {
+grandtotal: {
     type: String,
     trim : true
   },
-grandoutocme: {
+grandresult: {
       type: String,
       trim : true
-    }
+    },
+addflag: {
+        type: String,
+        trim : true
+   },
+ link:{
+   type: String,
+   trim : true
+ }
 
 });
 
