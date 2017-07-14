@@ -1,0 +1,38 @@
+var districts = [
+  {'code':30 , 'name':'ADILABAD' },
+  {'code':31 , 'name':'NIRMAL' },
+  {'code':32 , 'name':'KOMRAM BHEEM (ASIFABAD)' },
+  {'code':33 , 'name':'MANCHERIAL' },
+  {'code':34 , 'name':'PEDDAPALLI' },
+  {'code':35 , 'name':'KARIMNAGAR' },
+  {'code':36 , 'name':'JAGITYAL' },
+  {'code':37 , 'name':'RAJANNA (SIRICILLA)' },
+  {'code':38 , 'name':'WARANGAL-URBAN' },
+  {'code':39 , 'name':'WARANGAL-RURAL' },
+  {'code':40 , 'name':'MAHABUBABAD' },
+  {'code':41 , 'name':'JAYASHANKER (BHOOPALAPALLI)' },
+  {'code':42 , 'name':'JANGAON' },
+  {'code':43 , 'name':'KHAMMAM' },
+  {'code':44 , 'name':'BHADRADRI AT KOTHAGUDEM' },
+  {'code':45 , 'name':'NIZAMABAD' },
+  {'code':46 , 'name':'KAMAREDDY' },
+  {'code':47 , 'name':'SIDDIPET' },
+  {'code':48 , 'name':'MEDAK' },
+  {'code':49 , 'name':'SANGA REDDY' },
+  {'code':50 , 'name':'NALGONDA' },
+  {'code':51 , 'name':'YADADRI' },
+  {'code':52 , 'name':'SURYAPET' },
+  {'code':53 , 'name':'JOGULAMBA (GADWAL)' },
+  {'code':54 , 'name':'WANAPARTHY' },
+  {'code':55 , 'name':'NAGARKURNOOL' },
+  {'code':56 , 'name':'MAHABUBNAGAR' },
+  {'code':57 , 'name':'VIKARABAD' },
+  {'code':58 , 'name':'RANGA REDDY' },
+  {'code':59 , 'name':'MEDCHAL' },
+  {'code':60 , 'name':'HYDERABAD-I' },
+  {'code':61 , 'name':'HYDERABAD-II' },
+  {'code':62 , 'name':'HYDERABAD-III'}
+];
+
+//districts.exports = {districts};
+exports.districts = districts;
