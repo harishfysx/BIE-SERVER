@@ -1,4 +1,5 @@
 const year = 'I';
+const _ = require('lodash');
 
 var subjectList = [
   {'code': 01 , 'name' : 'ENGLISH PAPER -I' },
@@ -102,15 +103,17 @@ var subjectList = [
 exports.subjectFnctn =function subjectFnctn(subjCode){
   switch (subjCode) {
     case '31': case '32': case '37': case '38':
-    case '41': case '42': 
+    case '41': case '42':
 
       if(year == 'I'){
         subjCode ='1'+subjCode;
       }
-      return  parseInt(subjCode);
+      return  _.find(subjectList,  { 'code':parseInt(subjCode)}).name;
       break;
+    case '--':
+    return subjCode;
     default:
-      return parseInt(subjCode);
+      return  _.find(subjectList,  { 'code':parseInt(subjCode)}).name;
   }
 }
 
