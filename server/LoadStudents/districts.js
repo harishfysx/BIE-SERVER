@@ -34,5 +34,4 @@ var districts = [
   {'code':62 , 'name':'HYDERABAD-III'}
 ];
 
-//districts.exports = {districts};
 exports.districts = districts;

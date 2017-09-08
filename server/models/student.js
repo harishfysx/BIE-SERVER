@@ -9,6 +9,7 @@ var StudentSchema = new mongoose.Schema({
   ticket: {
     type: Number,
     minlength: 1,
+    unique:true,
     trim : true
   },
   district: {

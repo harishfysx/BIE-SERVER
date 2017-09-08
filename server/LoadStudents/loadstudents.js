@@ -92,7 +92,7 @@ candidate.subjects = [];
 
 var student = new Student(candidate);
 student.save().then((doc) =>{
-console.log('student saved')
+console.log('student saved',candidate.ticket);
 },(err) =>{
 console.log('error saving student',err)
 })
@@ -110,5 +110,5 @@ console.log('error saving student',err)
     });
 }
 
-//processFile('/harinodeapps/studdata/YR1WEB_sample.TXT');
-processFile('/harinodeapps/studdata/YR1WEB.TXT');
+processFile('./StudentsData/YR1WEB_sample.TXT');
+//processFile('../../harinodeapps/studdata/YR1WEB.TXT');
