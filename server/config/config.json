@@ -7,7 +7,6 @@
   "development" :{
     "PORT" : 3000,
    "MONGODB_URI":"mongodb://biedbadmin:Secret@172.16.180.122:27017/bie-db",
-    "MONGODB_URI": "mongodb://bpmadmin:Db2pswd@ds119578.mlab.com:19578/2017-gen-i-sup",
     "JWT_SECRET" : "97934973hkhkhdfd872973792732"
   }
 }
